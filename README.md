@@ -8,12 +8,14 @@
 
 A reproducible R pipeline for replicating core CEM simulation results and producing publication-ready extension figures, tables, and long-form output data.
 
+Final paper (PDF): [View Final Paper](06_manuscript/final_paper.pdf)
+
 ## What This Repository Contains
 
 - Replication and extension analysis scripts written in R.
 - Pre-generated manuscript assets (figures, tables, and long-format CSV outputs).
 - Source/reference paper files and raw Dataverse materials.
-- A manuscript draft file ready for integration into submission workflows.
+- Manuscript sources and the final paper PDF.
 
 ## Project Structure
 
@@ -70,14 +72,14 @@ This runs the complete R-first pipeline and refreshes all outputs in `03_outputs
 
 ## Optional Python Figure Workflow
 
-If you are using the Python transformation workflow for paper-ready figures:
+If you are using the author-provided Python transformation workflow for paper-ready figures:
 
 ```powershell
 Set-Location "c:/Users/hatem/Downloads/cem_replication_project"
 python 02_scripts/09_python_publication_figures.py
 ```
 
-This script writes figure outputs to `uploads/` and `prism-uploads/` according to its internal path configuration.
+Note: this script is preserved as provided and uses its own internal path conventions.
 
 ## Output Inventory
 
@@ -113,24 +115,6 @@ This script writes figure outputs to `uploads/` and `prism-uploads/` according t
 
 ## Manuscript
 
-Primary manuscript draft:
-
-- `06_manuscript/response_article_submission_ready.md`
-
-Final paper PDF (after you upload it):
-
-- `06_manuscript/final_paper.pdf`
-
-Direct GitHub file link for viewing in-browser:
-
-- [View Final Paper PDF](06_manuscript/final_paper.pdf)
-
-## Suggested GitHub Push Workflow
-
-```powershell
-git init
-git add .
-git commit -m "Clean project base and add comprehensive README"
-```
-
-If the remote repository already exists, then add your remote and push normally.
+- Draft source: `06_manuscript/response_article_submission_ready.md`
+- Final paper PDF: `06_manuscript/final_paper.pdf`
+- Browser link: [View Final Paper](06_manuscript/final_paper.pdf)
