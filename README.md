@@ -1,5 +1,11 @@
 # CEM Replication Project
 
+![R](https://img.shields.io/badge/R-4.5%2B-276DC3?logo=R&logoColor=white)
+![Python](https://img.shields.io/badge/Python-optional-3776AB?logo=python&logoColor=white)
+![Reproducible Pipeline](https://img.shields.io/badge/Reproducible-pipeline-2ea44f)
+![Release](https://img.shields.io/github/v/release/elsisiem/cem-replication-publication-pipeline?display_name=tag)
+![Last Commit](https://img.shields.io/github/last-commit/elsisiem/cem-replication-publication-pipeline)
+
 A reproducible R pipeline for replicating core CEM simulation results and producing publication-ready extension figures, tables, and long-form output data.
 
 ## What This Repository Contains
