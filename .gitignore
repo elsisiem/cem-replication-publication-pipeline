@@ -1,0 +1,20 @@
+# Python virtual environments
+.venv/
+venv/
+
+# R session and project metadata
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
