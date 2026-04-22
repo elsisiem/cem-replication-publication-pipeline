@@ -49,8 +49,8 @@ cem_replication_project/
 From the repository root:
 
 ```powershell
-Set-Location "c:/Users/hatem/Downloads/cem_replication_project/02_scripts"
-& "C:/Program Files/R/R-4.5.3/bin/x64/Rscript.exe" run_all.R
+Set-Location 02_scripts
+Rscript run_all.R
 ```
 
 This runs the complete R-first pipeline and refreshes all outputs in `03_outputs/`.
@@ -75,7 +75,6 @@ This runs the complete R-first pipeline and refreshes all outputs in `03_outputs
 If you are using the author-provided Python transformation workflow for paper-ready figures:
 
 ```powershell
-Set-Location "c:/Users/hatem/Downloads/cem_replication_project"
 python 02_scripts/09_python_publication_figures.py
 ```
 
